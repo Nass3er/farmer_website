@@ -1,0 +1,250 @@
+
+.text-center{
+    text-align: center;
+}
+
+.login{
+    margin-top: 5rem;
+   
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+    
+}
+.box1 .bord h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+
+}
+
+.bord{
+    border: 3px solid rgb(17, 230, 212);
+   border-radius: 10px;
+   border-top-right-radius: 52px;
+   border-bottom-left-radius: 52px;
+   box-shadow: 9px -12px 4px 2px rgb(34 218 255) ;
+   width: 90%;
+   background-color: #3ba5487a;
+}
+.bord .form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.form .fgroup{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+}
+.fsearch  {
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     margin-bottom: 50px;
+    
+}
+.fsearch a{
+    width: 160px;
+    height: 41px;
+    background-color: rgb(12 12 12);
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin-left: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.fsearch a:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.fsearch input {
+  width: 40%;
+height: 40px;
+border-radius: 15px;
+box-shadow: 9px 0 12px var(--main-color);
+}
+.bord .form input{
+    width: 130%;
+    margin-bottom: 15px;
+    height: 40px;
+    border-radius: 14px;
+
+}
+.bord .form select{
+    width: auto;
+    height: 30px;
+}
+.bord .form .sub{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.bord .form .sub button{
+    width: 94px;
+    height: 41px;
+    background-color:rgb(12 12 12);
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 9px;
+    font-weight: bold;
+
+}
+.bord .form .sub button:hover{
+    background-color: white;
+    color:rgb(23 202 203)  ;
+    cursor: pointer;
+}
+.bord .form a{
+    text-align: center;
+}
+
+.detail .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+.detail .container .image img{
+ width: 400px;
+border-radius: 30px;
+}
+.detail .container .info .naser{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.detail .container .info .naser .gbtn{
+    padding: 10px;
+    
+}
+.detail .container .info .naser .gbtn button{
+    width: 38px;
+    height: 35px;
+    margin: -3px;
+}
+.detail .container .info .naser .gbtn button:nth-child(2){
+    height: 40px;
+    width: 40px;
+    font-weight: bold;
+   
+}
+.detail .container .info .naser .gbtn button:first-child,
+.detail .container .info .naser .gbtn button:nth-child(3){
+    cursor: pointer;
+    background-color: aliceblue;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.detail .container .info .naser h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+@media (max-width: 768px) {
+    .detail .container {
+      display: block;
+    }
+    .info{
+        margin-left: 20px;
+    }
+}
+.detail .container .info form button{
+     
+    background-color:rgb(126 215 112);
+    width: auto;
+    height: 54px;
+    padding: 11px 33px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border-radius: 16px;
+    margin-top: 10px;
+}
+.detail .container .info form button:hover{
+    background-color: white;
+    color:rgb(126 215 112); 
+    cursor: pointer;
+}
+
+.card .container .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card .container h4{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 40px;
+    font-size: 30px;
+}
+.row .groupbtn{
+padding: 5px;
+}
+.row .groupbtn button{
+    width: 28px;
+    height: 27px;
+    margin: -3px;
+}
+.row .groupbtn button:nth-child(2){
+    width: 30px;
+    height: 30px;
+}
+.card .row .cancel{
+    color: red;
+    border: 1px solid red;
+    border-radius: 20px;
+    padding: 11px;
+   text-decoration: none;
+
+}
+.card .row .cancel:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+}
+.card .row .confirm{
+    color: white;
+    background-color: rgb(34, 88, 39) ;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 11px;
+   text-decoration: none;
+
+}
+.card .row span::after {
+    font-family: "Font Awesome 5 Free";
+    content:attr(data-state);
+    margin-right: 10px;
+    font-weight: 900;
+    margin-left: 6px;
+    color:rgb(13, 163, 13);}
+
+.card .row .confirm:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(34, 88, 39);
+    border: 1px solid rgb(34, 88, 39);
+}
+.card .row img{
+    border-radius: 10px;
+}
